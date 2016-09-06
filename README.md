@@ -13,4 +13,4 @@ This project contains two files:
 01) sample.txt: It contains test file for the main program. You can replace it with your own content.
     But remember that the name of the file should be the same.
     
-02) assignment.cpp
+02) assignment.cpp: This is the main code written in c++
