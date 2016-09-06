@@ -84,6 +84,8 @@ void process_option(char a){
 		case '2':
 			cout << endl;
 			cout << "Options chosen: Count paragraphs." << endl;
+			cout << "Please NOTE: " << endl;
+			cout << "Paragraph has been assumed to be two new lines between consecutive alphanumeric characters."
 			count_paragraphs();
 			cout << endl;
 			cout << endl;
@@ -92,7 +94,7 @@ void process_option(char a){
 		case '3':
 			cout << endl;
 			cout << "Options chosen: Dictionary search." << endl;
-			cout << "Enter the string you want to use for dictionary search" << endl;
+			cout << "Enter the string you want to use for dictionary search:" << endl;
 			cin >> search_string;
 			find_words_using_dictionary_search(search_string);
 			cout << endl;
@@ -102,13 +104,13 @@ void process_option(char a){
 		case '4':
 			cout << endl;
 			cout << "Options chosen: Dictionary search." << endl;
-			cout << "Enter the string you want to get probability of" << endl;
+			cout << "Enter the string you want to get probability of:" << endl;
 			cin >> search_string;
 			count_probability(search_string);
 			cout << endl;
 			cout << endl;
 			display_options();
-			break;
+			break
 		case '5':
 			clear_screen();
 			cout << endl;
