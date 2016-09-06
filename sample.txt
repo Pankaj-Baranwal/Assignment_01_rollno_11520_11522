@@ -1,8 +1,3 @@
-This is sample text.
-
-A new paragraph is denoted by two "\n" characters.
-
-This is a new paragraph.
-This is not a new paragraph.
-
-aaaababcdcdaaabdsf
+sanjeev  
+ 	
+pankaj

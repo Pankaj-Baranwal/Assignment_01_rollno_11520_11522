@@ -178,8 +178,8 @@ void count_probability(string search_string){
      search algorithm.
 */
 
-void find_words_using_dictionary_search(string search_string){
-	ifstream file (g_file_name.c_str());
+void find_words_using_dictionary_search(string search_string)
+{	ifstream file (g_file_name.c_str());
 	cout << endl;
 	cout << endl;
 	cout << "If any word is found, it will be mentioned below: " << endl;
@@ -256,7 +256,8 @@ void count_paragraphs(){
 						count += 1;
 						internal_count = 0;
 						char_found = false;
-					}else{
+					}else if (ch == '\n')
+					{
 						internal_count += 1;
 					}
 				}
